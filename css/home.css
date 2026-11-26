@@ -119,3 +119,12 @@ html{color-scheme:dark;scrollbar-color:#34506E var(--bg)}
 .pgh{padding-bottom:1.5rem}.pgh+section{padding-top:3rem}
 .logo{white-space:nowrap}.nav .btn-p{white-space:nowrap}
 @media(max-width:480px){.nav{padding-left:.9rem;gap:.4rem}.nav .btn-p{padding:.5rem .9rem;font-size:.85rem;min-height:44px}.menu-btn{padding:0 .8rem}}
+/* v6: Climacore */
+.logo{display:inline-flex;align-items:center;margin-right:auto}.logo-img{display:block;height:34px;width:auto;background:#fff;border-radius:8px;padding:4px 10px}.lw{font:700 1.1rem var(--fh);color:#fff}
+.plans.two{grid-template-columns:repeat(2,1fr)}.plan .btn{align-self:flex-start}.rv.nop figure{grid-template-columns:1fr}.rv.nop blockquote{font-size:clamp(1.05rem,2.2vw,1.3rem)}
+.lst.cols{columns:2;column-gap:2rem;list-style:disc}.jf{display:block;width:100%;height:780px;border:1px solid var(--line);border-radius:var(--r);background:#fff}
+.zip select{min-width:0}.pt4{grid-template-columns:repeat(3,1fr)}.pt4 div{font-size:.72rem;padding:.4rem .3rem}.cta .g>.plan{gap:.8rem}
+@media(max-width:820px){.plans.two{grid-template-columns:1fr}.lst.cols{columns:1}.jf{height:900px}}
+/* no sideways scrolling: clip the 3D carousel and animated band */
+html,body{overflow-x:clip}#spaces{overflow-x:clip}.hero{overflow:clip}.band,.wm{overflow:hidden}
+.hero h1{max-width:17ch}
